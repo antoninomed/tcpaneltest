@@ -3,18 +3,16 @@ import pandas as pd
 import requests
 
 
-
-
 # -------------------------------
 # CONFIGURAÇÃO DA PÁGINA
 # -------------------------------
 st.set_page_config(
-    page_title="Dashboard Google Sheets",
+    page_title="Testes de Giro",
     page_icon="📊",
     layout="wide"
 )
 
-st.title("📊 Dashboard de Planilha Google Sheets")
+st.title("Testes de Giro")
 
 # -------------------------------
 # LINK DA PLANILHA CSV
